@@ -1,11 +1,13 @@
-
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { FaBars, FaUserAlt, FaShoppingBag } from "react-icons/fa";
 import { IoSearchOutline } from "react-icons/io5";
 import { GiRoyalLove } from "react-icons/gi";
+import { useState } from "react";
 
 function Header() {
+  const[toggle,setToggle]=useState("")
 
   return (
     <header className="w-full">
@@ -30,7 +32,7 @@ function Header() {
 
       {/* Main Header */}
       <div className="bg-black w-full">
-        <div className="max-w-[1300px] mx-auto px-4 ">
+        <div className="max-w-[1300px] mx-auto px-4  py-3">
           <div className="flex justify-between items-center">
             {/* Left Section */}
             <div className="flex items-center gap-4 font-bold flex-wrap">
