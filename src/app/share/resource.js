@@ -1,0 +1,1 @@
+const data=["Sale","New in","Clothing","Tranding","Shoes","Accessories","Brands","Activewear","Gromming","Tailoring","Topman"]
