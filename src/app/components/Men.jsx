@@ -48,7 +48,7 @@ function Men() {
             </p>
           </div>
         </div>
-        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px]">
+        <div className="relative w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
       <Image
         src="https://content.asos-media.com/-/media/homepages/mw/2025/july/14-mena-row-apac-ie/hero/hp_ww_hero_wk46_2880x1280_row.jpg"
         alt="togo"
@@ -74,6 +74,9 @@ function Men() {
       </div>
     ))}
   </div>
+</div>
+<div>
+  
 </div>
 
     </div>
