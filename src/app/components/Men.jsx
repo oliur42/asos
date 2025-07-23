@@ -48,9 +48,15 @@ function Men() {
             </p>
           </div>
         </div>
-        <div>
-          {/* <Image src="https://content.asos-media.com/-/media/homepages/mw/2025/july/14-mena-row-apac-ie/hero/hp_ww_hero_wk46_2880x1280_row.jpg"/> */}
-        </div>
+        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px]">
+      <Image
+        src="https://content.asos-media.com/-/media/homepages/mw/2025/july/14-mena-row-apac-ie/hero/hp_ww_hero_wk46_2880x1280_row.jpg"
+        alt="togo"
+        className="object-cover"
+        fill
+        priority
+      />
+    </div>
 
       </div>
     </div>
