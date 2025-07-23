@@ -57,8 +57,25 @@ function Men() {
         priority
       />
     </div>
-
       </div>
+     <div>
+  <h1 className="text-black font-bold text-center text-[28px] py-4">New in</h1>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 p-4">
+    {[...Array(6)].map((_, index) => (
+      <div key={index}>
+        <Image
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO1PlWR31o3f7IKHqaabeV_3I4yvdx-aaY7w&s"
+          width={300}
+          height={300}
+          alt="logo"
+          className="w-full h-[200px] object-cover rounded-lg"
+        />
+      </div>
+    ))}
+  </div>
+</div>
+
     </div>
   )
 }

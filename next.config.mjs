@@ -9,6 +9,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "content.asos-media.com",
+      },
+        {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com",
       }
     ],
   },
